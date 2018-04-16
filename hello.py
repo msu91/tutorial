@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, json, jsonify
 app = Flask(__name__)
 
 
+#hoge
 @app.route('/')
 def root():
     return 'root'
